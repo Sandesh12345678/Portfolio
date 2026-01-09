@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandesh Urade Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">SU</span>
+            <div class="logo-dot"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Crafting Digital</span>
+                    <span class="title-line"><span class="highlight">Experiences</span> That</span>
+                    <span class="title-line">Inspire & <span class="rotate-text">Engage</span></span>
+                </h1>
+                <p class="hero-subtitle">I'm <span class="name-highlight">Sandesh Urade</span>, a creative developer specializing in building immersive web experiences with cutting-edge design and technology.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class btn="btn-primary">View My Work</a>
+                    <a href="#contact" class="btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-cube" id="floatingCube">
+                    <div class="cube-face front"></div>
+                    <div class="cube-face back"></div>
+                    <div class="cube-face right"></div>
+                    <div class="cube-face left"></div>
+                    <div class="cube-face top"></div>
+                    <div class="cube-face bottom"></div>
+                </div>
+                <div class="orbital-ring"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <h2 class="section-title">About <span class="title-accent">Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="image-frame"><img class="myImage" src="dadu.jpg" alt="picture"></div>
+                        <div class="image-placeholder"></div>
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Designing the future, one pixel at a time</h3>
+                    <p>With over 2 years of experience in digital design and development, I create visually stunning and highly functional web experiences that push boundaries and engage users.</p>
+                    <p>My approach combines aesthetic sensibility with technical expertise, resulting in digital products that are not only beautiful but also perform flawlessly across all platforms.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number" data-count="5">0</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" data-count="0">0</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" data-count="2">0</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills">
+            <h2 class="section-title">My <span class="title-accent">Expertise</span></h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <p>Creating robust prediction models using machine learning and deep learning.</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>Building responsive, performant web applications with modern frameworks and libraries.</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Building a powerful backend for web applications by using Node.js and Express.js.</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects">
+            <h2 class="section-title">Featured <span class="title-accent">Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <img class="ResIMG" src="Thumbnail P1.png" alt="resume builder">
+                            <a href="https://resume-builder-ai-frontend.onrender.com" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Resume Builder</h3>
+                        <p>Builds Enhanced resume using AI. Create, Edit and Download Proffessional Resumes with AI Assistance.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <img class="ChatIMG" src="Thumbnail P2.png" alt="Chat APP">
+                            <a href="https://chat-app-two-omega-73.vercel.app/" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Chat App</h3>
+                        <p>A Chat App where a person can chat to multiple people in real time.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <img class="NewsIMG" src="Thumbnail P3.png" alt="FakeNewDetector">
+                            <a href="https://sandesh12345678-fake-news-prediction-main-qk84su.streamlit.app/" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Fake News Detector</h3>
+                        <p>An impressive AI-powered tool to identify and flag fake news articles.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <h2 class="section-title">Let's <span class="title-accent">Connect</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in touch</h3>
+                    <p>I'm always open to discussing new opportunities, creative projects, or just having a friendly chat about design and technology.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>uradesandesh78@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 9272074314</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Ballarpur, Maharashtra, India</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Sandesh12345678"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="https://www.linkedin.com/in/sandesh-urade-540430377/"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="logo">
+                <span class="logo-text">SU</span>
+                <div class="logo-dot"></div>
+            </div>
+            <p>© 2023 Sandesh Urade. All rights reserved.</p>
+            <p>Designed with <i class="fas fa-heart"></i> and <i class="fas fa-code"></i></p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
